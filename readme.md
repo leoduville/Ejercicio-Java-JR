@@ -21,46 +21,44 @@ mvn spring-boot:run
 
 1. Crear un producto
   
-   URL: http://localhost:8080/products
-   Método: POST
-   Body (JSON): 
-   {
-     "name": "Product 1",
-     "description": "Description 1",
-     "price": 100.0,
-     "quantity": 50
-   }
+   - URL: http://localhost:8080/products
+   - Método: POST
+   - Body (JSON): {
+            "name": "Product 1",
+            "description": "Description 1",
+            "price": 100.0,
+            "quantity": 50
+        }
 
 2. Obtener un producto por id
   
-   URL: http://localhost:8080/products/{id}
-   Método: GET
+   - URL: http://localhost:8080/products/{id}
+   - Método: GET
 
 3. Obtener un producto por nombre
   
-   URL: http://localhost:8080/products/name/{name}
-   Método: GET
+   - URL: http://localhost:8080/products/name/{name}
+   - Método: GET
 
 4. Actualizar un producto
   
-   URL: http://localhost:8080/products/{id}
-   Método: PUT
-   Body (JSON): 
-   {
-     "name": "Product 1",
-     "description": "Description 1",
-     "price": 200.0,
-     "quantity": 50
-   }
+   - URL: http://localhost:8080/products/{id}
+   - Método: PUT
+   - Body (JSON): {
+            "name": "Product 1",
+            "description": "Description 1",
+            "price": 200.0,
+            "quantity": 50
+    }
 
 5. Eliminar un producto
   
-   URL: http://localhost:8080/products/{id}
-   Método: DELETE
+   - URL: http://localhost:8080/products/{id}
+   - Método: DELETE
 
 6. Obtener productos ordenados por precio
   
-   URL: http://localhost:8080/products
-   Método: GET
+   - URL: http://localhost:8080/products
+   - Método: GET
 
 
